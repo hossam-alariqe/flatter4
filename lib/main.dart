@@ -14,11 +14,11 @@ void main() {
         child:Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-        CircleAvatar(
+     const   CircleAvatar(
           radius: 50.0,
           backgroundImage:AssetImage("images/1.jpg"),
         ),
-        Text(
+       const Text(
           "حسام نبيل القباطي",
           style: TextStyle(
             fontFamily: 'Cairo',
@@ -41,12 +41,12 @@ void main() {
                         color:Colors.cyan[100] ),
                     ),
         Card(
-          margin: EdgeInsets.all(10.0),
+          margin:const EdgeInsets.all(10.0),
           child: ListTile(
           leading:Icon(
               Icons.phone,
               color: Colors.cyan[700]),
-              title:  Text('+967 773 022 428',
+              title: const Text('+967 773 022 428',
               style:TextStyle(
                 color: Colors.black87,
                 fontFamily: 'Cairo',
@@ -57,13 +57,13 @@ void main() {
         ), 
         ),
         Card(
-          margin: EdgeInsets.all(10.0),
+          margin:const EdgeInsets.all(10.0),
           
           child: ListTile(
             leading:Icon(
               Icons.email,
               color: Colors.cyan[700],),
-              title: Text('hossam773022428@gmail.com',
+              title:const Text('hossam773022428@gmail.com',
               style: TextStyle(
               fontFamily: 'cairo',
               fontSize: 20.0,
